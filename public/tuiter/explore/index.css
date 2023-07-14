@@ -1,0 +1,133 @@
+.wd-container {
+    padding: 20px;
+}
+
+.wd-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wd-search {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray;
+    color: darkgray;
+    margin: 0 10px;
+}
+
+.wd-tabs {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.wd-tabs li {
+    margin-right: 20px;
+}
+
+.wd-tabs li.active a {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.wd-image-text {
+    position: absolute;  /* This positions the text relative to the nearest parent with a 'relative' or 'absolute' position */
+    bottom: 0;          /* This aligns the bottom of the text with the bottom of the image */
+    left: 0;            /* This aligns the left side of the text with the left side of the image */
+    color: black;       /* This makes the text white */
+    padding: 10px;      /* This adds a little space between the text and the edge of the image */
+}
+
+.wd-tuits {
+    list-style-type: none;
+}
+.wd-image-container {
+    position: relative;  
+    width: 100%;
+    height: 300px; /* adjust height as needed */
+}
+
+.wd-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wd-image-text {
+    position: absolute;
+    bottom: 0; 
+    left: 0;  
+    color: white; 
+    padding: 10px;
+}
+.wd-tuits {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wd-tuits li {
+    margin-bottom: 10px;
+  }
+  
+  .tuit-category {
+    color: lightgray;
+    font-weight: bold;
+  }
+  
+  .tuit-main {
+    margin-bottom: 5px;
+  }
+  
+  .tuit-title {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .tuit-stats {
+    color: #555555;
+  }
+/* styles.css */
+
+.wd-container {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .wd-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .wd-logo-container,
+  .wd-profile-container {
+    border-radius: 50%;
+    /* Add appropriate dimensions for your logo and profile images */
+  }
+  
+  .wd-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .wd-tuits {
+    border: 1px solid lightgray;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+    
+  
