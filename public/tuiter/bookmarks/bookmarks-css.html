@@ -1,78 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Tuiter - Bookmarks</title>
-    <link href="../styles.css" rel="stylesheet" />
-    <link href="index.css" rel="stylesheet" />
-    <link
-      href="../../vendors/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="wd-container">
-      <div class="wd-title-header">
-        <i class="fas fa-arrow-left"></i>
-        <h1 class="wd-heading">All Bookmarks</h1>
-        <i class="fas fa-ellipsis-h"></i>
+<head>
+  <title>Tuiter - Bookmarks</title>
+  <link href="../styles.css" rel="stylesheet" />
+  <link href="index.css" rel="stylesheet" />
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="wd-container">
+    <div class="wd-title-header">
+      <i class="fa fa-arrow-left wd-icon"></i>
+      <h1 class="wd-heading">All Bookmarks</h1>
+      <i class="fa fa-ellipsis-h wd-icon"></i>
+    </div>
+
+    <div class="wd-tuit">
+      <div class="wd-user-info">
+        <img src="gandalf.jpg" alt="Profile Picture" class="wd-profile-picture" />
+        <div class="wd-user-details">
+          <p class="wd-user-name">Gandalf</p>
+          <p class="wd-user-handle">@Mithrandir</p>
+          <p class="wd-post-date">5/10/23</p>
+        </div>
       </div>
 
-      <div class="wd-tuit">
-        <div class="wd-user-info">
-          <img
-            src="gandalf.jpg"
-            alt="Profile Picture"
-            class="wd-profile-picture"
-          />
-          <div class="wd-user-details">
-            <p class="wd-user-name">Gandalf</p>
-            <p class="wd-user-handle">@Mithrandir</p>
-            <p class="wd-post-date">5/10/23</p>
-          </div>
-        </div>
+      <p class="wd-post-text">Check this out!</p>
 
-        <p class="wd-post-text">Check this out!</p>
-
-        <div class="wd-link-frame">
-          <a href="#" class="wd-link">
-            <div class="wd-link-content">
-              <div class="wd-link-image">
-                <img src="staff.jpg" alt="Image" />
-              </div>
-              <div class="wd-link-info">
-                <p class="wd-link-title">50% Staff Sale Site Wide</p>
-                <p class="wd-link-snippet">
-                  Come in and check out our inventory as we celebrate Prime Day
-                  in Middle Earth.
-                </p>
-              </div>
+      <div class="wd-link-frame">
+        <a href="#" class="wd-link">
+          <div class="wd-link-content">
+            <div class="wd-link-image">
+              <img src="staff.jpg" alt="Image" class="full-width-image" />
             </div>
-          </a>
-        </div>
+            <div class="wd-link-info">
+              <p class="wd-link-title">50% Staff Sale Site Wide</p>
+              <p class="wd-link-snippet">Come in and check out our inventory as we celebrate Prime Day in Middle Earth.</p>
+            </div>
+          </div>
+        </a>
+      </div>
 
-        <div class="wd-post-actions">
-          <div class="wd-comment">
-            <i class="fas fa-comment"></i>
-            <span class="wd-action-count">12</span>
-          </div>
-          <div class="wd-retweet">
-            <i class="fas fa-retweet"></i>
-            <span class="wd-action-count">56</span>
-          </div>
-          <div class="wd-heart">
-            <i class="fas fa-heart"></i>
-            <span class="wd-action-count">430</span>
-          </div>
-          <div class="wd-impressions">
-            <i class="fas fa-eye"></i>
-            <span class="wd-action-count">45.7k</span>
-          </div>
-          <div class="wd-share">
-            <i class="fas fa-share"></i>
-          </div>
+      <div class="wd-post-actions">
+        <div class="wd-comment">
+          <i class="fa fa-comment wd-icon"></i>
+          <span class="wd-action-count">12</span>
+        </div>
+        <div class="wd-retweet">
+          <i class="fa fa-retweet wd-icon"></i>
+          <span class="wd-action-count">56</span>
+        </div>
+        <div class="wd-heart">
+          <i class="fa fa-heart wd-icon"></i>
+          <span class="wd-action-count">430</span>
+        </div>
+        <div class="wd-impressions">
+          <i class="fa fa-eye wd-icon"></i>
+          <span class="wd-action-count">45.7k</span>
+        </div>
+        <div class="wd-share">
+          <i class="fa fa-share wd-icon"></i>
         </div>
       </div>
     </div>
-  </body>
+
+    <div class="wd-tuit">
+      <div class="wd-user-info">
+        <img src="frodo.jpg" alt="Profile Picture" class="wd-profile-picture" />
+        <div class="wd-user-details">
+          <p class="wd-user-name">Frodo Baggins</p>
+          <p class="wd-user-handle">@RingBearer</p>
+          <p class="wd-post-date">5/11/23</p>
+        </div>
+      </div>
+
+      <p class="wd-post-text">Amazing adventure awaits!</p>
+
+      <div class="wd-link-frame">
+        <a href="#" class="wd-link">
+          <div class="wd-link-content">
+            <div class="wd-link-image">
+              <img src="ring.jpg" alt="Image" class="full-width-image" />
+            </div>
+            <div class="wd-link-info">
+              <p class="wd-link-title">One Ring to Rule Them All</p>
+              <p class="wd-link-snippet">Join me in my quest to destroy the Ring and save Middle Earth.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wd-post-actions">
+        <div class="wd-comment">
+          <i class="fa fa-comment wd-icon"></i>
+          <span class="wd-action-count">8</span>
+        </div>
+        <div class="wd-retweet">
+          <i class="fa fa-retweet wd-icon"></i>
+          <span class="wd-action-count">34</span>
+        </div>
+        <div class="wd-heart">
+          <i class="fa fa-heart wd-icon"></i>
+          <span class="wd-action-count">256</span>
+        </div>
+        <div class="wd-impressions">
+          <i class="fa fa-eye wd-icon"></i>
+          <span class="wd-action-count">20.2k</span>
+        </div>
+        <div class="wd-share">
+          <i class="fa fa-share wd-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
