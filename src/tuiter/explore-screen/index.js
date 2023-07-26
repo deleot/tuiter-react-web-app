@@ -30,7 +30,7 @@ function ExploreScreen() {
        </li>
      </ul>
      <div className="position-relative mb-2">
-        <img src="/images/ridetl.jpg" className="w-100" />
+        <img src="/images/Ridetl.png" className="w-100" />
         <h1 className="position-absolute wd-nudge-up text-white">
           Creeping Death</h1>
       </div>
