@@ -1,0 +1,117 @@
+.wd-title-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wd-title {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.wd-title i,
+.wd-title h1 {
+  margin-right: 10px;
+}
+
+.wd-tuit {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.wd-user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.wd-profile-picture {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.wd-user-details {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wd-user-name {
+  font-weight: bold;
+}
+.wd-user-handle {
+  font-size: smaller;
+}
+.wd-post-date {
+  margin-right: 5px;
+}
+
+.wd-post-text {
+  margin-bottom: 10px;
+}
+
+.wd-link-frame {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.wd-link-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wd-link-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.wd-link-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wd-link-info {
+  text-align: left;
+}
+
+.wd-link-title {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.wd-link-snippet {
+  color: #555555;
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.wd-post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wd-action-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.wd-action-count {
+  color: black;
+  margin-right: 10px;
+}
