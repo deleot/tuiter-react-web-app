@@ -25,9 +25,14 @@ function ProfileScreen() {
     setProfile(action.payload);
   };
 
+  console.log(currentUser);
+
   useEffect(() => {
     loadProfile();
   }, []);
+
+  console.log(profile);
+
   return (
     <div>
       <h1>Profile Screen</h1>
